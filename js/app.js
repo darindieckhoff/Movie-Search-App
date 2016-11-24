@@ -89,7 +89,6 @@ $(document).on("click", ".movie", function(movies){
   -Gets imdb ID from clicked movie and uses it for another AJAX request from OMDb
   =================*/ 
   var clickedMovie = $(this).attr('id');
-  console.log(clickedMovie);
   var movieDesc = {
     i: clickedMovie,
     type: 'movie'
@@ -118,7 +117,7 @@ $(document).on("click", ".movie", function(movies){
   -Event handler for 'View on IMDB button that links to selected movie's IMDB page.
   =================*/
   $('#IMDB').on('click', function() {
-    window.location.href = clickedMovie;
+    window.location.href = 'http://www.imdb.com/title/' + clickedMovie;
   });
   
 }); //end desc click
