@@ -1,6 +1,8 @@
 # Movie-Search-App
 Movie Search app using OMDb API.
 
+!!! OMDb API is no longer open. App no longer works !!!
+
 In this project, you'll build a "Movie Search" app using the Open Movie Database (OMDb) API.
 
 You'll need to use your knowledge of basic JavaScript, jQuery, and AJAX including loading JSON data from a server using a GET HTTP request.
