@@ -1,7 +1,7 @@
 # Movie-Search-App
 Movie Search app using OMDb API.
 
-!!! OMDb API is no longer open. App no longer works !!!
+!!! OMDb API is no longer an open database and has gone private. Because of this app no longer works !!!
 
 In this project, you'll build a "Movie Search" app using the Open Movie Database (OMDb) API.
 
